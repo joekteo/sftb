@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body {
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-color: #434343;
+}
+
+#navbar {
+  background-color: #ea533f;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  text-transform: ita
+  font-family: 'Oswald', sans-serif;
+}
+
+#banner {
+  background: url(http://40.media.tumblr.com/38e8014b6941cf1dd9cf814c57f12942/tumblr_ndyfvm0EwX1tubinno1_1280.jpg) no-repeat center top;
+  background-size: 100%;
+  height: 100%;
+  margin-top: 47px;
+  padding-top: 140px;
+  text-align: center;
+  min-height: 500px;
+  width:100%;
+}
+
+#slogan {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+#summary p{
+  width: 45%;
+}
+
+/*.line {
+  background-color: #312E33;
+  min-height: 100px;
+}*/
+.row-process {
+  width: 80%;
+  font-size: 4em;
+  margin: 0 auto;
+}
+.row-process p {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
+
+.container-login {
+    min-height: 0;
+    width: 480px;
+    color: #333333;
+    margin-top: 40px;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-background {
+    background: #ffffff;
+    border: medium none;
+    margin-top: -2em;
+    padding: 10px 30px;
+    width: 69%;
+}
+.container-login h2 {
+    color: #ea533f;
+}
+
+.form-control {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #999999;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.form-login-button button {
+    background-color: #ea533f;
+    border-color: #e73e28;
+    color: #ffffff;
+    border-radius: 0;
+    font-size: 15px;
+    line-height: 1.10;
+    padding: 10px 16px;
+    width: 100%;
+}
+.form-login-button a {
+  font-size:12px;
+}
+
+
+.form-login button:hover,
+.form-login button:focus {
+    background: #de2f18;
+    border-color: #be2815;
+}
+
+/*.footer-bar {
+
+  min-height: 100px;
+  width:100%;
+  height:80px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#2f3140;
+}*/
