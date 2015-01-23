@@ -17,6 +17,11 @@ body {
   width: 130px;
 }
 
+.navbar-right li {
+  font-size: 14px;
+  padding-top: 24px;
+}
+
 /*** Banner ***/
 #banner {
   background: black;
@@ -114,7 +119,11 @@ body {
 
 /*** Process ***/
 .process h2 {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 150px;
   margin-top: 55px;
+  padding-bottom: 20px;
 }
 
 .row-process {
