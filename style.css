@@ -1,5 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+/*** Base Elements ***/
+body {
+  background: #f5f5f5;
+  color: #434343;
+  font-family: 'Open Sans', sans-serif;
+}
+/*** Navbar ***/
 #navbar {
   background-color: #dc5151;
   height: 7em;
@@ -10,28 +17,27 @@
   width: 130px;
 }
 
+/*** Banner ***/
 #banner {
   background: black;
   background-size: 100%;
   height: 100%;
   margin-top: 47px;
+  min-height: 470px;
   padding-top: 140px;
   text-align: center;
-  min-height: 470px;
   width:100%;
 }
 
-.banner-summary p{
-  position: relative;
-  top: 3em;
+.banner-summary p {
   left: 6em;
+  position: relative;
   text-align: left;
+  top: 3em;
   width: 60%;
 }
 
-/**login**/
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
-
+/*** Login NEEDS EDITING ***/
 .container-login {
   min-height: 0;
   width: 480px;
@@ -41,7 +47,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .login-background {
@@ -94,44 +99,37 @@
   border-color: #be2815;
 }
 
-/** intergation bar**/
+/*** Intergation **/
 .intergation-container {
-  text-align: center;
   background: #312E33;
   min-height: 100px;
+  text-align: center;
 }
+
 .intergation-container p {
+  color: #ffffff;
   margin-left: 16px;
   padding: 5px 0 3px 0;
-  color: #ffffff;
 }
 
-.row-intergation {
-  margin: 0 auto;
-}
-/** process **/
+/*** Process ***/
 .process h2 {
-
+  margin-top: 55px;
 }
+
 .row-process {
-  width: 80%;
   font-size: 4em;
   margin: 0 auto;
+  width: 80%;
 }
+
 .row-process p {
+  color: #434343;
   font-size: 12px;
-  color: black;
 }
 
+/*** Footer ***/
+.footwrap {
+  background: #312E33;
+}
 
-
-/*.footer-bar {
-
-  min-height: 100px;
-  width:100%;
-  height:80px;
-  position:absolute;
-  bottom:0;
-  left:0;
-  background:#2f3140;
-}*/
