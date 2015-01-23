@@ -69,7 +69,7 @@ body {
 }
 
 .container-login h2 {
-  color: #ea533f;
+  color: #dc5151;
   font-size: 18px;
 }
 
@@ -154,8 +154,8 @@ body {
   color: #eee;
   width: 100%;
   font-size: 11px;
-/*  padding: 20px;
+  padding: 20px;
   position: relative;
-  bottom: -47em;*/
+  bottom: -47em;
 }
 
