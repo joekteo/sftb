@@ -60,6 +60,12 @@ body {
   margin-right: auto;*/
 }
 
+.middle{
+  left: 50%;
+  right: auto;
+  opacity: 1;
+}
+
 .login-background {
   background-color: #ffffff;
   border: medium none;
