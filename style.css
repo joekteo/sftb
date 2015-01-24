@@ -149,13 +149,41 @@ body {
 }
 
 /*** Footer ***/
-.footer-container {
+.footer-row {
   background: #312E33;
-  color: #eee;
-  width: 100%;
+  bottom: 0;
+  display: inline-block;
   font-size: 11px;
+  margin-bottom: -5px;
+  min-height: 140px;
   padding: 20px;
-  position: relative;
-  bottom: -47em;
+  width: 100%;
 }
 
+#footer-col {
+  width: 10% !important;
+}
+
+.footer-row li {
+  list-style: none;
+  margin-top: 50%;
+  margin-left: 45%;
+  text-align: center;
+}
+
+.footer-row a {
+  color: #eee;
+}
+
+/*.footer-bottom p, .footer-bottom a {
+  color: #eee;
+  bottom: 20px;
+}*/
+
+#bfoot {
+  font-size: 10px;
+  margin-right: 4.5%;
+  padding-top: 2.25%;
+  text-align: center;
+  /*width: 100%;*/
+}
