@@ -29,7 +29,7 @@ body {
 
 /*** Banner ***/
 #banner {
-  background: black;
+  background: url(http://www.feewall.com/wp-content/uploads/2015/01/abstract_minimalistic_digital_art_backgrounds_gradient_blurred_1920x1080_62125.jpg);
   background-size: 100%;
   height: 100%;
   margin-top: 47px;
@@ -61,7 +61,7 @@ body {
 }
 
 .login-background {
-  background: #ffffff;
+  background-color: #ffffff;
   border: medium none;
   padding: 10px 30px;
   width: 85%;
@@ -106,7 +106,7 @@ body {
 }
 
 .form-login button:hover, .form-login button:focus {
-  background: #de2f18;
+  background-color: #de2f18;
   border-color: #be2815;
 }
 
@@ -150,7 +150,7 @@ body {
 
 /*** Footer ***/
 .footer-row {
-  background: #312E33;
+  background-color: #312E33;
   bottom: 0;
   display: inline-block;
   font-size: 11px;
