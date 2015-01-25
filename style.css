@@ -33,10 +33,6 @@ body {
   margin-top: 84px;
 }
 
-.carousel-img {
-  background-size: 80%;
-}
-
 /*** Login ***/
 .container-login {
   color: #333333;
@@ -171,5 +167,17 @@ body {
   margin-right: 13.5%;
   padding-top: 2.25%;
   text-align: center;
-  /*width: 100%;*/
+}
+
+/*** Media Queries ***/
+@media screen and (max-width: 845px) {
+  /*** Navbar ***/
+  #navbar-items {
+    display: inline;
+    position: relative;
+    bottom: 3.2em;
+    left: 16em;
+    font-size: 13px;
+    margin-right: 10%;
+  }
 }
