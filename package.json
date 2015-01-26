@@ -5,11 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "node_modules/grunt-cli/bin/grunt",
-    "postinstall": "npm run dev && npm run bower && npm run build",
+    "postinstall": "npm run bower && npm run build",
     "bower": "bower install",
     "build": "gulp",
-    "start": "node server.js",
-    "dev": "npm install --dev"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
